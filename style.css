@@ -231,4 +231,51 @@ ul {
   display: none;
 }
 
+@media (max-width: 1030px) {
+  .menu-btn {
+    display: block;
+  }
 
+  .nav-main ul.nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    height: auto;
+    transform: translateX(-400px);
+    transition: transform 0.5s ease-in-out;
+    padding: 30px;
+    opacity: 0.9;
+  }
+  .nav-main ul.nav-menu.show {
+    transform: translateX(-20px);
+  }
+
+  .nav-main ul.nav-menu li {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .contenedor {
+    grid-template-columns: 100%;
+  }
+
+  .news-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cards-baner-one {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cards-baner-two {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .showcase {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .social {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

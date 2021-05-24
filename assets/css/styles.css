@@ -1,0 +1,111 @@
+.video {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #8c363e;
+    font-size: 45px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: -35px;
+    
+}
+
+.video:hover {
+    color: #8c363e;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.text {
+    padding-top: 50px;
+      
+}
+
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    color: white; /* White text color */
+    cursor: pointer;
+    border: solid 1px #000;
+  }
+  
+  .html {width: 100%; background-color: #04AA6D;} /* Green */ 
+  .css {width: 95%; background-color: #2196F3;} /* Blue */
+
+.skills:hover {
+    opacity: 0.7;
+
+}
+
+.tit {
+    padding-top: 10px;
+
+}
+
+.col7 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 50px;
+
+    
+}
+
+.service-iteme {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+
+.service-iteme h4 {
+    transition: all 0.5s;
+}
+
+.service-iteme p {
+    transition: all 0.5s;
+}
+
+.service-iteme:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.service-iteme:hover h4 {
+    color: #1e1e1e;
+}
+
+.service-iteme:hover p {
+    color: #4a4a4a;
+}
+
+.service-iteme:hover i {
+    color: #8c363e;
+}
+
+.service-iteme i {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    font-size: 70px;
+    color: #fff;
+}
+
+
+.skil{
+    text-align: center; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    color: white; /* White text color */
+    cursor: pointer;
+    border: solid 1px #000;
+}
+.skil {width: 100%; background-color: #252525;}
